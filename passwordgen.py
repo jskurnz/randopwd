@@ -11,8 +11,6 @@ def randopwd():
     chars = lower + upper + num + sym
 
     # get input and ensure input is int
-    
-    
     for attempts in range(3):
         length = input('# of characters that your password requires:')
         try:
